@@ -1,0 +1,70 @@
+.cateGoryContainer .header {
+  padding: 10rpx 0;
+}
+.cateGoryContainer .header .search {
+  width: 92%;
+  height: 60rpx;
+  background: #eee;
+  border-radius: 10rpx;
+  font-size: 26rpx;
+  line-height: 60rpx;
+  text-align: center;
+  margin: 0 auto;
+}
+.cateGoryContainer .contentContainer {
+  display: flex;
+  border-top: 1rpx solid #eee;
+  box-sizing: border-box;
+  height: calc(100vh - 80rpx);
+}
+.cateGoryContainer .contentContainer .leftContainer {
+  width: 20%;
+  height: 100%;
+}
+.cateGoryContainer .contentContainer .leftContainer .leftScroll {
+  height: 100%;
+}
+.cateGoryContainer .contentContainer .leftContainer .leftScroll .navItem {
+  position: relative;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+.cateGoryContainer .contentContainer .leftContainer .leftScroll .navItem.active:before {
+  position: absolute;
+  top: 10rpx;
+  left: 6rpx;
+  content: '';
+  width: 2rpx;
+  height: 60rpx;
+  background: #bb2c08;
+}
+.cateGoryContainer .contentContainer .rightContainer {
+  width: 80%;
+}
+.cateGoryContainer .contentContainer .rightContainer .rightScroll {
+  height: 100%;
+}
+.cateGoryContainer .contentContainer .rightContainer .rightScroll .rightImg {
+  display: block;
+  width: 520rpx;
+  height: 190rpx;
+  margin: 10rpx auto;
+}
+.cateGoryContainer .contentContainer .rightContainer .rightScroll .shopList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cateGoryContainer .contentContainer .rightContainer .rightScroll .shopList .shopItem {
+  width: 33.333%;
+  text-align: center;
+}
+.cateGoryContainer .contentContainer .rightContainer .rightScroll .shopList .shopItem image {
+  width: 90%;
+  height: 144rpx;
+}
+.cateGoryContainer .contentContainer .rightContainer .rightScroll .shopList .shopItem text {
+  font-size: 24rpx;
+}
+
